@@ -7,8 +7,54 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.a{
+  color: gray;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links{
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.left-links{
+  margin-left: -35px;
+}
+
+.right-links{
+  margin-right: 5px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 255px;
+  background-color: lightgray;
+}
+
 img {
   width: 600px;
+  display: flex;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  gap: 5px;
 }
 
 button {
